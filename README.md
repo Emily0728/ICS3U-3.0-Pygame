@@ -39,14 +39,17 @@ If you are not sure about your path, you can find where Python is installed manu
 - Right-click the Python App and then select Open file location.
 - Right-click again on the Python shortcut and then select Open file location.
 - You should now get a location (path) where Python is installed on Windows. It should look something like: 
+
 ```
 C:\Users\YOURNAME\AppData\Local\Programs\Python\Python312 
 ```
 
+In my case, YOURNAME on my computer is `Cheng`.
+
 Finally, use this path to run the Pygame installation command in a terminal:
 
 ```
-C:\Users\Cheng\AppData\Local\Programs\Python\Python312\python -m pip install -U pygame==2.5.2 --user
+C:\Users\Cheng\AppData\Local\Programs\Python\Python312\python.exe -m pip install -U pygame==2.5.2 --user
 ```
 
 ## Pygame Template
@@ -126,6 +129,9 @@ Now that you have your own Pygame installation library running, try to use the `
 
 ### 1. Flags of the World
 Pick a country's flag of the world and draw it. Start easy with simple shapes (e.g. France, Italy, Japan) and increase difficulty with more complex designs (e.g. Canada, China). Add a flagpole to finish your design.
+- Level 1: Basic Bars, e.g. France, Italy, Germany, Poland
+- Level 2: Combine Primitive Shapes, e.g. Switzerland
+- Level 3: Polygons
 
 ### 2. Brand Logos
 Pick a well-known logo for a popular brand and draw it. Deconstruct the logo into its components -- simple geometric shapes, polygones, lines, etc.

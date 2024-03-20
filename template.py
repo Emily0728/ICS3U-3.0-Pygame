@@ -31,7 +31,7 @@ while running:
     
     # Draw graphics - BEGIN YOUR PROGRAM HERE
     screen.fill(WHITE)
-    pygame.draw.circle(screen, GREY, (300, 200), 50)
+    pygame.draw.circle(screen, GREY, (0, 0), 50)
 
     # Update display
     pygame.display.flip()
