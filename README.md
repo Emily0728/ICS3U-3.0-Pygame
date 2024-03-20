@@ -129,9 +129,10 @@ Now that you have your own Pygame installation library running, try to use the `
 
 ### 1. Flags of the World
 Pick a country's flag of the world and draw it. Start easy with simple shapes (e.g. France, Italy, Japan) and increase difficulty with more complex designs (e.g. Canada, China). Add a flagpole to finish your design.
-- Level 1: Basic Bars, e.g. France, Italy, Germany, Poland
-- Level 2: Combine Primitive Shapes, e.g. Switzerland
-- Level 3: Polygons
+- Level 1: Single Shapes, e.g. Japan, Polan, Ukraine
+- Level 2: Multiple Bars, e.g. France, Italy, Germany, Poland
+- Level 3: Combine Primitive Shapes, e.g. Norway, South Africa, Jamaica
+- Level 4: Polygons, e.g. China, Philippines, Turkey, Canada, Cuba, Puerto Rico
 
 ### 2. Brand Logos
 Pick a well-known logo for a popular brand and draw it. Deconstruct the logo into its components -- simple geometric shapes, polygones, lines, etc.

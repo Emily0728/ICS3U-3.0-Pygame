@@ -16,9 +16,12 @@ width, height = 600, 400
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("My Program")
 
-# Define colours from https://www.pygame.org/docs/ref/color_list.html
+# Define colours
+BLACK = pygame.Color("black")
 WHITE = pygame.Color("white")
-GREY = pygame.Color("gray67")
+RED = pygame.Color("red3")
+BLUE = pygame.Color("royalblue4")
+GREEN = pygame.Color("seagreen")
 
 # Main loop
 running = True
@@ -30,8 +33,11 @@ while running:
             running = False
     
     # Draw graphics - BEGIN YOUR PROGRAM HERE
-    screen.fill(WHITE)
-    pygame.draw.circle(screen, GREY, (300, 200), 50)
+    screen.fill(BLACK)
+    pygame.draw.rect(screen, BLUE, pygame.Rect(0, 0, 200, 400))
+    pygame.draw.rect(screen, WHITE, pygame.Rect(200, 0, 200, 400))
+    pygame.draw.rect(screen, RED, pygame.Rect(400, 0, 200, 400))
+    
 
     # Update display
     pygame.display.flip()
